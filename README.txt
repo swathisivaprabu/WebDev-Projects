@@ -5,7 +5,7 @@ This Folder consists of totally 4 projects primarly focusing on the domain of WE
 
 	Objective: Create a registration form that collects details such as Name, Email, Date of Birth, Department, Gender, and Purpose of Registration,and stores it in the database,
 
-	Technologies Used: HTML, CSS,Python FLASK
+	Tech Stack Used: HTML, CSS,Python FLASK
 
 	Features:
 	 Form validation for input fields.
@@ -15,7 +15,7 @@ This Folder consists of totally 4 projects primarly focusing on the domain of WE
 
 	Objective: Implement a login system where users input their email and password, which is validated against stored data in the database.
 
-	Technologies Used: Flask, MySQL,HTML,CSS
+	Tech Stack Used: Flask, MySQL,HTML,CSS
 
 	Features:
 	 Login page with email and password validation.
@@ -27,7 +27,7 @@ This Folder consists of totally 4 projects primarly focusing on the domain of WE
 
 	Objective: Handle form data submission and insert the user information into a MySQL database.
 
-	Technologies Used: Flask, MySQL, Flask-Mail
+	Tech Stack Used: Flask, MySQL, Flask-Mail
 
 	Features:
 	 Collects user details from the form.
@@ -39,7 +39,7 @@ This Folder consists of totally 4 projects primarly focusing on the domain of WE
 
 	Objective: Once a user registers, an email is sent to the admin asking them to approve or reject the registration. The admin can approve or decline directly from the email.
  
-	Technologies Used: Flask, MySQL, Flask-Mail
+	Tech Stack Used: Flask, MySQL, Flask-Mail
  
 	Features:
 	 Admin can approve or decline registration via a button in the email.
