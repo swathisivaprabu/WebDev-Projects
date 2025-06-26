@@ -12,13 +12,13 @@ import base64
 file_path = r'C:\Users\Sabari\Desktop\Swathi-cllg\web_dev_projects\web_dev_projects\templates\ldap_registered_users.csv'   #links in python should start with r to be recognized 
 
 app = Flask(__name__)
-app.secret_key = 'Kj8N2m9P5q1R7s3T6u0V4w8X2y5Z9a1B3c7D4e6F8g2H5i9J0k3L7m1N4o8P2q6'
+app.secret_key = 'Kj8N2m9P5q1R7s3T6u0V4w8X2y5Z9a1B3c7D4e6F8g2H5i9J0k3L7m1N4o8P2q6' #or any secret key wnated 
 
 # Database configuration - Your way
 db = mysql.connector.connect(
     host="localhost",
     user="root",  
-    password="2005", 
+    password="", #password
     database="stu_reg"
 )
 cursor = db.cursor()
